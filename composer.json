@@ -1,0 +1,24 @@
+{
+    "name": "havenshen/slim-swoole",
+    "type": "library",
+    "description": "High performance HTTP server based on Swoole. Speed up your Slim applications.",
+    "keywords": ["Slim Framework Swoole"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haven Shen",
+            "email": "havenshen@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HavenShen\\Slim\\Swoole\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HavenShen\\Slim\\Swoole\\Tests\\": "tests"
+        }
+    }
+}
