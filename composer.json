@@ -11,7 +11,10 @@
         }
     ],
     "require": {
-        "symfony/console": "^5.1"
+        "symfony/console": "^5.1",
+        "php-di/php-di": "^6.2",
+        "illuminate/support": "^7.16",
+        "monolog/monolog": "^2.1"
     },
     "autoload": {
         "psr-4": {
@@ -22,5 +25,11 @@
         "psr-4": {
             "HavenShen\\Slim\\Swoole\\Tests\\": "tests"
         }
+    },
+    "require-dev": {
+        "slim/slim": "4.*",
+        "phpunit/phpunit": "^8.5",
+        "codedungeon/phpunit-result-printer": "^0.27.0",
+        "slim/psr7": "^1.1"
     }
 }
