@@ -1,5 +1,5 @@
 # slim-swoole
-Speed up your Slim applications by Swoole.
+Speed up your Slim 4 applications by Swoole.
 
 ## Version Compatibility
 
